@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background:#f9f5fb;
+}
+
+/* HEADER */
+
+.top-header{
+    background:#c2185b;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.menu{
+    margin-top:15px;
+}
+
+.menu button{
+    border:none;
+    padding:8px 16px;
+    margin:5px;
+    background:#e91e63;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.menu button:hover{
+    background:#ad1457;
+}
+
+.cart-box{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+/* LAYOUT */
+
+.layout{
+    display:flex;
+    padding:25px;
+}
+
+/* PRODUCTS */
+
+.product-area{
+    flex:3;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+/* PRODUCT CARD */
+
+.product{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.product:hover{
+    transform:translateY(-5px);
+}
+
+.product img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+.product h3{
+    margin:10px 0;
+}
+
+.product p{
+    color:#c2185b;
+    font-weight:bold;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:gray;
+    font-size:14px;
+    margin-left:6px;
+}
+
+.product button{
+    margin-top:10px;
+    padding:8px;
+    width:100%;
+    border:none;
+    background:#c2185b;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.product button:hover{
+    background:#880e4f;
+}
+
+/* BANNER */
+
+.promo{
+    flex:1;
+    margin-left:20px;
+    border-radius:10px;
+    background:url("https://i.pinimg.com/736x/a7/4e/34/a74e3429f5c505758063a31d522a4fea.jpg") center/cover no-repeat;
+    position:relative;
+}
+
+.promo-text{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+    color:white;
+}
+
+.promo-text button{
+    margin-top:10px;
+    padding:10px 18px;
+    border:none;
+    background:#e91e63;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
