@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Women Fashion Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top-header">
+
+    <h1>Women Fashion</h1>
+
+    <nav class="menu">
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('clothing')">Clothing</button>
+        <button onclick="filterProducts('bags')">Bags</button>
+        <button onclick="filterProducts('shoes')">Shoes</button>
+        <button onclick="filterProducts('watches')">Watches</button>
+        <button onclick="filterProducts('glasses')">Glasses</button>
+    </nav>
+
+    <div class="cart-box">
+        🛍 Cart <span id="cart-count">0</span>
+    </div>
+
+</header>
+
+
+<main class="layout">
+
+    <section class="product-area" id="product-list"></section>
+
+    <aside class="promo">
+        <div class="promo-text">
+            <h2>New Collection</h2>
+            <p>Trendy items for women</p>
+            <button>Explore</button>
+        </div>
+    </aside>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color: #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Khung chính */
+.container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border: 2px solid red;
+    background-color: #b3b3b3;
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #1e5bd7;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Các dòng input */
+#input {
+    margin-bottom: 15px;
+}
+
+/* Label */
+#input span {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Textbox */
+input[type="text"] {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+/* Ô kết quả */
+#result {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
+}
+
+/* Select Year */
+select {
+    height: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Hiển thị học sinh */
+#display {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Nút OK, Cancel */
+input[type="button"] {
+    width: 80px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #666;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #d9d9d9;
+}
